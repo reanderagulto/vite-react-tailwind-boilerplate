@@ -1,0 +1,35 @@
+#root {
+    @apply min-h-[100vh] flex flex-col items-center justify-center;
+}
+
+.heading {
+    &-1{
+        @apply text-xl text-primary-200;
+    }   
+
+    &-2 {
+        @apply text-lg text-primary-200;
+    }
+}
+
+.subtitle {
+    &-1 {
+        @apply text-md text-secondary;
+    }
+
+    &-2 {
+        @apply text-sm text-secondary;
+    }
+}
+
+.body {
+    @apply text-xsm text-primary-100;
+}
+
+.btn {
+    &-primary {
+        &-large {
+            @apply flex items-center w-auto justify-center p-[10px] m-auto my-[20px] bg-primary-200 rounded-md text-white-300 lg:w-[300px];
+        }
+    }
+}

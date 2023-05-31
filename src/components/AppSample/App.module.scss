@@ -1,0 +1,19 @@
+.wrapper-container {
+  @apply flex flex-col justify-center items-center;
+}
+
+.logo-container {
+  @apply text-center mb-[20px];
+
+  .logo {
+    @apply w-[200px] h-auto;
+  }
+}
+
+.card-container {
+  @apply text-center w-full;
+}
+
+.read-the-docs {
+  @apply mt-[10px] lg:mt-[20px];
+}
